@@ -1,0 +1,175 @@
+def fnc():
+   ...:     print('welcome to home')
+
+In [2]: fnc()
+welcome to home
+
+In [3]: def meet(name,job_title,city):
+   ...:     return 'meet{name},a{jobtitle}from{city}'
+   
+In [4]: meet
+Out[4]: <function _main_.meet(name, job_title, city)>
+
+In [5]: meet1=meet('james','writer','nashville')
+
+In [6]: print(meet1)
+meet{name},a{jobtitle}from{city}
+
+In [7]: def meet(name,job_title,city):
+   ...:     return f'meet{name},a{job_title}from{city}.'
+   
+In [8]: meet1=meet('james','writer','nashville')
+
+In [9]: print(meet1)
+meetjames,awriterfromnashville.
+
+In [10]: meet2=meet('artist' , 'john' , 'austin')
+
+In [11]: print(meet2)
+meetartist,ajohnfromaustin.
+
+In [12]: meet3=meet('maddy','developer','dallas')
+
+In [13]: print(meet3)
+meetmaddy,adeveloperfromdallas.
+
+In [14]: def my_function(fname):
+    ...:     print(fname+'colour')
+    
+In [15]: my_function('blue')
+bluecolour
+
+In [16]: my_function('yellow')
+yellowcolour
+
+In [17]: my_function('green')
+greencolour
+
+In [18]: def my_function(fname, lname):
+    ...:     print(fname+""+lname)
+    
+In [19]: my_function('roseline', 'santhiya')
+roselinesanthiya
+
+In [20]: my_function('roseline', 'santhiya')
+roselinesanthiya
+
+In [21]: def my_function(fname, lname):
+    ...:     print(fname+" "+lname)
+    
+In [22]: my_function('roseline', 'santhiya')
+roseline santhiya
+
+In [23]: def add_numbers(a,b):
+    ...:     sum=a+b
+    ...:     print('sum:',sum)
+    
+In [24]: add_numbers(5,10)
+sum: 15
+
+In [26]: add_numbers(38,95)
+sum: 133
+
+In [27]: add_numbers(1784,9683)
+sum: 11467
+
+In [28]: def add_numbers(a=7,b=8):
+    ...:     sum=a+b
+    ...:     print('sum:',sum)
+    
+In [29]: add_numbers(2,3)
+sum: 5
+
+In [30]: add_numbers(2)
+sum: 10
+
+In [31]: add_numbers()
+sum: 15
+
+In [37]: def find_sum(*numbers):
+    ...:     result=0
+    ...:     for num in numbers:
+    ...:         result=result+num
+    ...:     print('sum=',result)
+    
+In [38]: find_sum(1,2,)
+sum= 3
+
+In [39]: find_sum(1,2,9)
+sum= 12
+
+In [40]: find_sum(1,2,5,7)
+sum= 15
+
+In [41]: def evenodd(x):
+    ...:     if(x%2==0):
+    ...:         print('even')
+    ...:     else:
+    ...:         print('odd')
+    
+In [42]: evenodd(5)
+odd
+
+In [43]: evenodd(38)
+even
+
+In [44]: evenodd(31974)
+even
+
+In [45]: evenodd(4799)
+odd
+
+In [46]: def myfnc(x,y=50):
+    ...:     print('x:',x)
+    ...:     print('y:',y)
+    ...:
+
+In [47]: myfnc(10)
+x: 10
+y: 50
+
+In [48]: myfnc(50)
+x: 50
+y: 50
+
+In [49]: myfnc(490)
+x: 490
+y: 50
+
+In [50]: def student(firstname,lastname):
+    ...:     print(firstname,lastname)
+    ...:
+
+In [51]: student(firstname='roseline',lastname='santhiya')
+roseline santhiya
+
+In [52]: student(firstname='roby',lastname='john')
+roby john
+
+
+def multiplication_table(x):
+  i=0
+  for i in range (0,10):
+    print (i,'*',x,'=',x*i)
+multiplication_table(2)
+0 * 2 = 0
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+0 * 6 = 0
+1 * 6 = 6
+2 * 6 = 12
+3 * 6 = 18
+4 * 6 = 24
+5 * 6 = 30
+6 * 6 = 36
+7 * 6 = 42
+8 * 6 = 48
+9 * 6 = 54
+multiplication_table(6)
