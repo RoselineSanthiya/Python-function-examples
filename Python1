@@ -30,6 +30,7 @@ meetartist,ajohnfromaustin.
 
 In [12]: meet3=meet('maddy','developer','dallas')
 
+
 In [13]: print(meet3)
 meetmaddy,adeveloperfromdallas.
 
