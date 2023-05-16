@@ -2,7 +2,7 @@ def fnc():
    ...:     print('welcome to home')
 
 In [2]: fnc()
-welcome to home
+welcome to home.
 
 In [3]: def meet(name,job_title,city):
    ...:     return 'meet{name},a{jobtitle}from{city}'
