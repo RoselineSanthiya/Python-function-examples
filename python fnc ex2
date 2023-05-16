@@ -77,3 +77,69 @@ mul(9,15)
 13 * 9 = 117
 14 * 9 = 126
 15 * 9 = 135
+
+ def getdata(x,*y):
+    ...:     print('value of x:',x)
+    ...:     print('value of y:',y)
+    ...:     print(x*sum(y))
+    
+getdata(2,1,2,3,4,5,6,7,8,9)
+value of x: 2
+value of y: (1, 2, 3, 4, 5, 6, 7, 8, 9)
+90
+
+def getdata(x,*y):
+   print('value of x:',x)
+   print('value of y:',y)
+   print(x*sum(y))
+   print(type(X))
+   print(type(y))
+    
+getdata(2,1,2,3,4,5,6,7,8,9)
+value of x: 2
+value of y: (1, 2, 3, 4, 5, 6, 7, 8, 9)
+90
+
+  def getdata(x,*y):
+    ...:     print('value of x:',x)
+    ...:     print('value of y:',y)
+    ...:     print(x*sum(y))
+    ...:     print(type(x))
+    ...:     print(type(y))
+    ...:
+
+In [54]: getdata(2,1,2,3,4,5,6,7,8,9)
+value of x: 2
+value of y: (1, 2, 3, 4, 5, 6, 7, 8, 9)
+90
+<class 'int'>
+<class 'tuple'>
+
+In [55]: tu=()
+
+In [56]: type(tu)
+Out[56]: tuple
+
+In [57]: tu=(2,3,4,5)
+
+In [58]: sum(tu)
+Out[58]: 14
+ sum(i for i in range(20))
+Out[60]: 190
+
+ def getdata(**kwargs):
+    ...:     print(kwargs)
+    ...:     print(type(kwargs))
+    ...:
+
+In [62]: getdata(name='tommy',age=14,city='trichy')
+{'name': 'tommy', 'age': 14, 'city': 'trichy'}
+<class 'dict'>
+
+In [63]: getdata(name='bee',age=5,city='trichy',gender='female')
+{'name': 'bee', 'age': 5, 'city': 'trichy', 'gender': 'female'}
+<class 'dict'>
+
+
+
+
