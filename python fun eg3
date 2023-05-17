@@ -1,0 +1,17 @@
+def lower(x):
+    ...:     return x.lower()
+    ...:
+
+In [32]: def upper(x):
+    ...:     return x.upper()
+    ...:
+
+In [33]: def greetings(fun,x):
+    ...:     return fun(x)
+    ...:
+
+In [34]: upper('purple')
+Out[34]: 'PURPLE'
+
+In [35]: lower('PUrple')
+Out[35]: 'purple'
