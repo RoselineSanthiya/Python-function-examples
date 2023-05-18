@@ -1,17 +1,137 @@
 def lower(x):
-    ...:     return x.lower()
-    ...:
+  return x.lower()
+def upper(x):
+   return x.upper()
+    
+def greetings(fun,x):
+    return fun(x)
+    
+  upper('purple')
+ 'PURPLE'
+ lower('PUrple')
+ 'purple'
 
-In [32]: def upper(x):
-    ...:     return x.upper()
-    ...:
+def values(fnc,x,y):
+ print(fnc(x,y))
+def mul(x,y):
+  for i in range(1,11):
+    print(i,'*',x,'=',x*i)
+  for i in range(1,11):
+    print(i,'*',y,'=',i*y)
+values(mul,2,3)
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+10 * 2 = 20
+1 * 3 = 3
+2 * 3 = 6
+3 * 3 = 9
+4 * 3 = 12
+5 * 3 = 15
+6 * 3 = 18
+7 * 3 = 21
+8 * 3 = 24
+9 * 3 = 27
+10 * 3 = 30
 
-In [33]: def greetings(fun,x):
-    ...:     return fun(x)
-    ...:
+def values(nos,x,y):
+  print(nos(x,y))
+def nos(x,y):
+  for i in range(1,11):
+   print(i,'*',x,'=',i*x)
+  for i in range(1,11):
+   print(i,'*',y,'=',i*y)
+values(nos,2,4)
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+10 * 2 = 20
+1 * 4 = 4
+2 * 4 = 8
+3 * 4 = 12
+4 * 4 = 16
+5 * 4 = 20
+6 * 4 = 24
+7 * 4 = 28
+8 * 4 = 32
+9 * 4 = 36
+10 * 4 = 40
 
-In [34]: upper('purple')
-Out[34]: 'PURPLE'
+def division(nos,x):
+  print(nos(x))
+def nos(x):
+  for i in range(1,11):
+    print(i,'/',x,'=',i/x)
+division(nos,3)
+division(nos,5)
+1 / 3 = 0.3333333333333333
+2 / 3 = 0.6666666666666666
+3 / 3 = 1.0
+4 / 3 = 1.3333333333333333
+5 / 3 = 1.6666666666666667
+6 / 3 = 2.0
+7 / 3 = 2.3333333333333335
+8 / 3 = 2.6666666666666665
+9 / 3 = 3.0
+10 / 3 = 3.3333333333333335
+None
+1 / 5 = 0.2
+2 / 5 = 0.4
+3 / 5 = 0.6
+4 / 5 = 0.8
+5 / 5 = 1.0
+6 / 5 = 1.2
+7 / 5 = 1.4
+8 / 5 = 1.6
+9 / 5 = 1.8
+10 / 5 = 2.0
 
-In [35]: lower('PUrple')
-Out[35]: 'purple'
+def a():
+   print('bru coffee')
+def b():
+   print('sunrise coffee')
+def callab(coffee):
+   coffee()
+callab(a)
+callab(b)
+bru coffee
+sunrise coffee
+
+def a():
+  print('a fun')
+def b():
+  print('b fun')
+def callab(fun):
+  fun()
+callab(a)
+a fun
+
+def fruits(bee):
+     ...:   print('apple bee')
+     ...: def flowers(bee):
+     ...:   print ('rose bee')
+     ...: def seed(bee):
+     ...:   print('flax bee')
+     ...: def plant(bee):
+     ...:   print('lemongrass bee')
+     ...: def vareity(din,bee):
+     ...:   print(din(bee))
+     ...:
+
+vareity(fruits,bee)
+apple bee
+None
+
+
