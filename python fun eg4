@@ -18,3 +18,17 @@ enter any no2:876
 addition= 953
 None
 
+ def sprite(x,y,z=10):
+     ...:     print(x+y+z)
+     
+      def fin(sprite,x,y,z):
+     ...:     print(sprite(x,y,z))
+fin(sprite,5,5,9)
+19
+None
+fin(sprite,20,30,50)
+100
+None
+
+
+
