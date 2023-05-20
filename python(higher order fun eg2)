@@ -68,6 +68,27 @@ name= bee
 age= 5
 state= tn
 
+  def bee():
+     print('hi i am bee')
+    
+  def tommy():
+     print('hi i am tommy')
+    
+  def puppy():
+     print('hi i am puppy')
+  
+  def buti():
+     print('hi i am buti')
+    
+ def pets(dogs):
+     dogs()
+    
+pets(buti)
+ hi i am buti
+pets(bee)
+hi i am bee
+
+
 
 
 
