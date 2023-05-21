@@ -89,6 +89,48 @@ pets(bee)
 hi i am bee
 
 
+In [1]: def getdata():
+   ...:     x=int(input('enter any no1:'))
+   ...:     y=int(input('enter any no2:'))
+   ...:     z=int(input('enter any n03:'))
+   ...:     sum=x+y+z
+   ...:     print('sum of x,y,z is:',sum)
+   ...: def add(getdata):
+   ...:     getdata()
+   ...:
+
+In [8]: add(getdata)
+enter any no1:98
+enter any no2:789
+enter any n03:560
+sum of x,y,z is: 1447
+
+ def numbers(x,y,z=10):
+    ...:     ...:     if(x==0 and y<100):
+    ...:     ...:         print('rose')
+    ...:     ...:     elif(y>50 and z<=150):
+    ...:     ...:         print('lotus')
+    ...:     ...:     elif(x==70 or z>90):
+    ...:     ...:         print('lavendar')
+    ...:     ...:     else:
+    ...:     ...:         print('none')
+    ...:
+
+ def garden(numbers,x,y,z):
+       numbers(x,y,z)
+    
+: garden(numbers,10,38,90)
+none
+
+: garden(numbers,70,87,50)
+lotus
+
+: garden(numbers,70,0,100)
+lavendar
+
+
+
+
 
 
 
