@@ -1,1 +1,28 @@
+ 
+ a=lambda x,y:x+y
+ 
+ a(8,9)
+ 17
+ a(86,78)
+ 164
+ 
+  x=lambda x,y,z:x+y+z
+  y=lambda a,b,c:a+b-c
+  def call(fun,x,y,z):
+    print(fun(x,y,z))
+    
+: call(x,9,7,9)
+25
+: call(y,98,45,90)
+53
+
+ name=lambda x:x.upper()
+  name('rose')
+  'ROSE'
+  name('sharon')
+  'SHARON'
+  
+
+
+
 
