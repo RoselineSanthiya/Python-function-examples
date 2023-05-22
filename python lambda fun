@@ -22,6 +22,55 @@
   name('sharon')
   'SHARON'
   
+  
+  x1=lambda word:word.upper()
+    
+  x2=lambda word:word.center(10,'*')
+     
+  x3=lambda word:word.title()
+     
+  def call(word,x):
+    print(word(x))
+     
+call(x1,'rose')
+ROSE
+call(x2,'sandal')
+**sandal**
+call(x3,'wood')
+Wood
+
+  a=lambda x,y:x**y
+  b=lambda x,y:x/y
+  c=lambda x,y:x*y
+
+  def any(nos,x,y):
+       print(nos(x,y))
+     
+ any(a,2,3)
+  8
+ any(b,679,567)
+  1.1975308641975309
+ any(c,54,9)
+  486
+  
+ x=lambda a:a.isidentifier()
+     
+ y=lambda b:b.isprintable()
+     
+ z=lambda c:c.upper()
+     
+ def call(word,x):
+     print(word(x))
+       
+: call(x,'wood')
+True
+: call(y,'sandal')
+True
+: call(z,'tree')
+TREE
+
+
+  
 
 
 
